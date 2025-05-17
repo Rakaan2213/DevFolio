@@ -1,0 +1,26 @@
+/* navbar */
+
+@media (max-width: 992px) {
+  #navbarSupportedContent {
+    display: none;
+  }
+}
+
+@media (min-width: 993px) {
+  .navbar .container .bars {
+    display: none;
+  }
+}
+/* about */
+@media (max-width: 576px) {
+  .about .row {
+    text-align: center;
+  }
+  .card-footer {
+    display: flex;
+    justify-content: space-around;
+  }
+  .socials {
+    text-align: center;
+  }
+}
